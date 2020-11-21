@@ -23,4 +23,8 @@ In this project directory open terminal or cmd and run this command
 
 > `php artisan serve`
 
+and run this command for npm
+
+> npm install
+
 > `npm run watch --watch-poll`
