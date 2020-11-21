@@ -15,16 +15,16 @@
 
 In this project directory open terminal or cmd and run this command
 
-> `php artisan key:generate`
+> php artisan key:generate
 
-> `php artisan migrate`
+> php artisan migrate
 
-> `php artisan db:seed --class=PriceSeeder`
+> php artisan db:seed --class=PriceSeeder
 
-> `php artisan serve`
+> php artisan serve
 
 and run this command for npm
 
 > npm install
 
-> `npm run watch --watch-poll`
+> npm run watch --watch-poll
