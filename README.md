@@ -11,7 +11,7 @@
 # Step to run project
 
 * Rename file `.env.example` to `.env`
-* Create databases `niagahoster` or rund this sql query `CREATE DATABASE niagahoster`
+* Create databases `niagahoster` or run this sql query `CREATE DATABASE niagahoster`
 
 In this project directory open terminal or cmd and run this command
 
