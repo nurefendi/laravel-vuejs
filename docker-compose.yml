@@ -20,6 +20,20 @@ services:
       context: ./
       dockerfile: app.dockerfile
     image: app_laravel:1.0
+    networks:
+      - example-networks
+    command: sh -c "composer install && npm install"
     volumes:
       - ./:/var/www
 
+  database:
+    image: mariadb:10.3
+    networks:
+      - example-networks
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: example
+
+networks:
+  example-networks:
+      driver: bridge
