@@ -285,9 +285,12 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5px;
   li {
     margin-right: 20px;
     .btn {
+      width: 60px;
+      height: 60px;
       border: 2px solid #ffffff;
       color: #ffffff;
       &:hover {
@@ -329,9 +332,12 @@ ul {
 }
 
 .btn {
+  &:hover {
+    filter: none;
+  }
   img {
     max-width: 30%;
-    filter: grayscale(100%);
+    filter: brightness(0) invert(1);
 
     &:hover {
       filter: none;
