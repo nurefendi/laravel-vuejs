@@ -8,7 +8,7 @@
 * mysql
 * npm
 
-# Stap to run project
+# Step to run project
 
 * Rename file `.env.example` to `.env`
 * Create databases `niagahoster` or rund this sql query `CREATE DATABASE niagahoster`
